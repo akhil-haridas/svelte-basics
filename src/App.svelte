@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	{#each mobileCompanies as comapny}
+	{#each mobileCompanies as comapny,index}
 		<h1>{comapny}</h1>
 	{/each}	
 </div>
