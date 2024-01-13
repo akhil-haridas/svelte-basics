@@ -6,7 +6,8 @@
 
 <div>
 	{#each mobileCompanies as company}
+	<h1>{company.name}</h1>
 	<input type="text" placeholder="Enter name" />
-		<h1>{company.name}</h1>
-	{/each}	
+	{/each}
+	<button type="button" on:click={shuffleArray}>SHUFFLE</button>	
 </div>
