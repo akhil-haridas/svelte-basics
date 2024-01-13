@@ -2,6 +2,9 @@
 	// const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
 	const mobileCompanies = [{name:"Apple"},{name:"Pixel"},{name:"Nothing"},{name:"Samsung"},{name:"OnePlus"}]
 
+	const shuffleArray = () => {
+		
+	}
 </script>
 
 <div>
