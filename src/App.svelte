@@ -4,6 +4,6 @@
 
 <div>
 	{#each mobileCompanies as comapny,index}
-		<h1>{comapny}</h1>
+		<h1>{index + 1}{comapny}</h1>
 	{/each}	
 </div>
