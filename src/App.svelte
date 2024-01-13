@@ -6,6 +6,7 @@
 
 <div>
 	{#each mobileCompanies as company}
+	<input type="text" placeholder="Enter name" />
 		<h1>{company}</h1>
 	{/each}	
 </div>
