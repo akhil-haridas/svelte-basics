@@ -15,7 +15,7 @@
 </script>
 
 <div>
-  {#each mobileCompanies as company}
+  {#each mobileCompanies as company (company.name)}
     <h1>{company.name}</h1>
     <input type="text" placeholder="Enter name" />
   {/each}
