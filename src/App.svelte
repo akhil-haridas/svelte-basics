@@ -15,9 +15,9 @@
 </script>
 
 <div>
+	<button type="button" on:click={shuffleArray}>SHUFFLE</button>
   {#each mobileCompanies as company (company.name)}
     <h1>{company.name}</h1>
     <input type="text" placeholder="Enter name" />
   {/each}
-  <button type="button" on:click={shuffleArray}>SHUFFLE</button>
 </div>
