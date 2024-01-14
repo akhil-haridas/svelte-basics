@@ -14,6 +14,10 @@
   };
 
   let count = 0 ;
+
+  const increment = ()=> {
+    count++ ;
+  }
 </script>
 <!-- 
 <div>
@@ -28,4 +32,5 @@
 <div>
   <h1>Event Handling in svelte</h1>
   <h2>Count : {count}</h2>
+  <button on:click={increment}>+</button>
 </div> 
