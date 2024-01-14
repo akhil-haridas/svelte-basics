@@ -21,7 +21,6 @@
 
   const addon = ()=> {
     if(addOn) count = count + addOn
-    else window.alert("Please enter a value")
   }
 
 </script>
