@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
   import { shuffle } from "lodash";
   // const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
   let mobileCompanies = [
@@ -12,8 +12,10 @@
   const shuffleArray = () => {
     mobileCompanies = shuffle(mobileCompanies);
   };
-</script>
 
+  let count = 0 ;
+</script>
+<!-- 
 <div>
 	<button type="button" on:click={shuffleArray}>SHUFFLE</button>
   {#each mobileCompanies as company (company.name)}
@@ -25,4 +27,5 @@
 
 <div>
   <h1>Event Handling in svelte</h1>
-</div>
+  <h2>Count : {count}</h2>
+</div> 
