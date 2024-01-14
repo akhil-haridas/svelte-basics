@@ -38,5 +38,5 @@
   <h1>Event Handling in svelte</h1>
   <h2>Count : {count}</h2>
   <button on:click={increment}>+</button>
-  <button on:click={addon}>Addon</button>
+  <button on:click={()=>addon()}>Addon</button>
 </div> 
