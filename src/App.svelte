@@ -20,7 +20,8 @@
   }
 
   const addon = ()=> {
-    count = count + addOn
+    if(addOn) count = count + addOn
+    window.alert("Please enter a value")
   }
 
   const inputHandler = (e) => {
