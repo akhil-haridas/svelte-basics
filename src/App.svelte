@@ -14,14 +14,14 @@
   };
 
   let count = 0 ;
-  let addOn
+  let addOn = 5
   const increment = ()=> {
     count++ ;
   }
 
   const addon = ()=> {
     if(addOn) count = count + addOn
-    window.alert("Please enter a value")
+    else window.alert("Please enter a value")
   }
 
 </script>
