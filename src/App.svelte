@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { shuffle } from "lodash";
   // const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
   let mobileCompanies = [
@@ -20,4 +20,4 @@
     <h1>{company.name}</h1>
     <input type="text" placeholder="Enter name" />
   {/each}
-</div>
+</div> -->
