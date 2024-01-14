@@ -21,3 +21,8 @@
     <input type="text" placeholder="Enter name" />
   {/each}
 </div> -->
+
+
+<div>
+  <h1>Event Handling in svelte</h1>
+</div>
