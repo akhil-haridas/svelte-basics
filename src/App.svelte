@@ -24,12 +24,6 @@
     window.alert("Please enter a value")
   }
 
-  const inputHandler = (e) => {
-    if (e.target.name === 'add-on'){
-      addOn=Number(e.target.value)
-  }
-}
-
 </script>
 <!-- 
 <div>
@@ -45,6 +39,5 @@
   <h1>Event Handling in svelte</h1>
   <h2>Count : {count}</h2>
   <button on:click={increment}>+</button>
-  <input type="number" onchange={inputHandler} name="add-on" />
   <button on:click={addon}>Addon</button>
 </div> 
