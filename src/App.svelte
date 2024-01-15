@@ -20,7 +20,7 @@
   }
 
   const addon = ()=> {
-    if(addOn) count = count + addOn
+    // if(addOn) count = count + addOn
   }
 
 </script>
