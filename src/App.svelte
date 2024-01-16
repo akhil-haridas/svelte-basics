@@ -1,6 +1,6 @@
 <script>
   import { shuffle } from "lodash";
-  // const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
+  const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
   let mobileCompanies = [
     { name: "Apple" },
     { name: "Pixel" },
