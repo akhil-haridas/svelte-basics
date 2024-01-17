@@ -42,6 +42,7 @@
   <h1>Event Handling in svelte</h1>
   <h2>Count : {count}</h2>
   <h2>Doubled : {doubled}</h2>
+  <button on:click={addby5}>Addby5</button>
   <button on:click={increment}>+</button>
   <button on:click={addon}>Addon</button>
 </div> 
