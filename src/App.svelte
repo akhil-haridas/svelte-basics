@@ -32,7 +32,7 @@
   }
 
   $: sum = numbers.reduce((total,curr)=> (total+curr),0)
-  
+
 </script>
 <!-- 
 <div>
@@ -48,6 +48,7 @@
   <h1>Event Handling in svelte</h1>
   <h2>Count : {count}</h2>
   <h2>Doubled : {doubled}</h2>
+  <h2>Sum : {sum}</h2>
   <button on:click={addby5}>Addby5</button>
   <button on:click={increment}>+</button>
   <button on:click={addon}>Addon</button>
