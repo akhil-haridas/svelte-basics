@@ -15,6 +15,7 @@
 
   let count = 0 ;
   let addOn = 5
+  let doubled
   const increment = ()=> {
     count++ ;
   }
