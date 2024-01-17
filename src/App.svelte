@@ -16,6 +16,9 @@
   let count = 0 ;
   let addOn = 5
   $: doubled = count * 2
+
+  let numbers = [1,2,3,4,5]
+
   const increment = ()=> {
     count++ ;
   }
