@@ -28,7 +28,7 @@
   }
 
   const addby5 = ()=> {
-    
+    numbers = [...numbers,5]
   }
 </script>
 <!-- 
