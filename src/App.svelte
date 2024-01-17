@@ -30,6 +30,9 @@
   const addby5 = ()=> {
     numbers = [...numbers,5]
   }
+
+  $: sum = numbers.reduce((total,curr)=> (total+curr),0)
+  
 </script>
 <!-- 
 <div>
