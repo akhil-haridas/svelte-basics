@@ -42,7 +42,7 @@ let volume =0;
 <div>
   <h1>VOLUME : {volume}</h1>
   <button on:click={()=> volume = volume + 1}>Increase Button</button>
-  <button>Decrease Button</button>
+  <button on:click={()=> volume = volume - 1}>Decrease Button</button>
 </div>
 
 <!-- 
