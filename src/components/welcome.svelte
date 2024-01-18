@@ -1,1 +1,6 @@
-<h1>Hi</h1>
+
+<script>
+   export let value;
+</script>
+
+<h1>{value}</h1>
