@@ -34,7 +34,15 @@
   $: sum = numbers.reduce((total,curr)=> (total+curr),0)
 
 
+let volume =0;
+
 </script>
+
+
+<div>
+  <h1>VOLUME : {volume}</h1>
+</div>
+
 <!-- 
 <div>
 	<button type="button" on:click={shuffleArray}>SHUFFLE</button>
