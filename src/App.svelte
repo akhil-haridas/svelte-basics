@@ -41,6 +41,7 @@ let volume =0;
 
 <div>
   <h1>VOLUME : {volume}</h1>
+  <button>Increase Button</button>
 </div>
 
 <!-- 
