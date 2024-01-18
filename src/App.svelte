@@ -1,5 +1,6 @@
 <script>
   import { shuffle } from "lodash";
+  import Welcome from "./components/welcome.svelte";
   // const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
   let mobileCompanies = [
     { name: "Apple" },
@@ -46,12 +47,15 @@ $:if(volume > 20){
 
 </script>
 
-
 <div>
+  <Welcome/>
+</div>
+
+<!-- <div>
   <h1>VOLUME : {volume}</h1>
   <button on:click={()=> volume = volume + 1}>Increase Button</button>
   <button on:click={()=> volume = volume - 1}>Decrease Button</button>
-</div>
+</div> -->
 
 <!-- 
 <div>
