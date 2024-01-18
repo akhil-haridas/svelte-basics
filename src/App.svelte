@@ -48,7 +48,9 @@ $:if(volume > 20){
 </script>
 
 <div>
-  <Welcome/>
+  <Welcome name="Hi"/>
+  <Welcome name="Hi i'm"/>
+  <Welcome name="Hi i'm Akhil!"/>
 </div>
 
 <!-- <div>
