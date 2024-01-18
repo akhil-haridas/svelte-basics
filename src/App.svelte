@@ -45,12 +45,14 @@ $:if(volume > 20){
   alert("Min limit is 0")
 }
 
+let age = 23;
+
 </script>
 
 <div>
-  <Welcome value="Hi"/>
-  <Welcome value="Hi i'm"/>
-  <Welcome value="Hi i'm Akhil!"/>
+  <Welcome value="Hi" {age} />
+  <Welcome value="Hi i'm" {age} />
+  <Welcome value="Hi i'm Akhil!"{age} />
 </div>
 
 <!-- <div>
