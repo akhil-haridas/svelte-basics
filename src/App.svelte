@@ -38,7 +38,10 @@ let volume =0;
 
 $:if(volume > 20){
   volume = 20
-  alert("max limit is 20")
+  alert("Max limit is 20")
+}else if (volume < 0){
+  volume = 0
+  alert("Min limit is 0")
 }
 
 </script>
