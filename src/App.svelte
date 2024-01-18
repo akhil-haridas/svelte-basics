@@ -36,6 +36,11 @@
 
 let volume =0;
 
+$:if(volume > 20){
+  volume = 20
+  alert("max limit is 20")
+}
+
 </script>
 
 
