@@ -19,8 +19,10 @@
    <div class="content">
       <slot name="content"/>
    </div>
+   {#if $$slots.footer}
    <hr/>
    <div class="footer">
       <slot name="footer"/>
    </div>
+   {/if}
 </div>
