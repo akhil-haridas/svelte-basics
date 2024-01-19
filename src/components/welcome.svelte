@@ -6,8 +6,8 @@
 
 <h1>{value} : {age}</h1> -->
 
-<div>
+<!-- <div>
    <slot>
       Default
    </slot>
-</div>
+</div> -->
