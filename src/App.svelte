@@ -49,11 +49,11 @@ let age = 23;
 
 </script>
 
-<div>
+<!-- <div>
   <Welcome value="Hi" {age} />
   <Welcome value="Hi i'm" {age} />
   <Welcome value="Hi i'm Akhil!"{age} />
-</div>
+</div> -->
 
 <!-- <div>
   <h1>VOLUME : {volume}</h1>
