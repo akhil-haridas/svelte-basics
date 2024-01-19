@@ -14,12 +14,12 @@
 
 <div class="card">
    <div class="header">
-      <slot/>
+      <slot name="header"/>
    </div>
    <div class="content">
-      <slot/>
+      <slot name="content"/>
    </div>
    <div class="footer">
-      <slot/>
+      <slot name="footer"/>
    </div>
 </div>
