@@ -11,3 +11,9 @@
       Default
    </slot>
 </div> -->
+
+<div class="card">
+   <div class="header"></div>
+   <div class="content"></div>
+   <div class="footer"></div>
+</div>
