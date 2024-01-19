@@ -49,7 +49,7 @@ let age = 23;
 
 </script>
 
-<div>
+<!-- <div>
   <Welcome>
     <h1>Hi</h1>
   </Welcome>
@@ -57,9 +57,9 @@ let age = 23;
     <p>I'm a MERN Stack Developer</p>
   </Welcome>
   <Welcome>
-    
+
   </Welcome>
-</div>
+</div> -->
 
 <!-- <div>
   <Welcome value="Hi" {age} />
