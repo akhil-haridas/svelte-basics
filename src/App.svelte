@@ -51,9 +51,15 @@ let age = 23;
 
 <div>
   <Welcome>
-    <div slot="header"></div>
-    <div slot="content"></div>
-    <div slot="footer"></div>
+    <div slot="header">
+      <h1>Hi</h1>
+    </div>
+    <div slot="content">
+      <h2>I'm AKhil K</h2>
+    </div>
+    <div slot="footer">
+      <p>I'm a Full stack Developer</p>
+    </div>
   </Welcome>
 </div>
 
