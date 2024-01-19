@@ -7,5 +7,7 @@
 <h1>{value} : {age}</h1> -->
 
 <div>
-   <slot/>
+   <slot>
+      Default
+   </slot>
 </div>
