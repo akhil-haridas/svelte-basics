@@ -19,6 +19,7 @@
    <div class="content">
       <slot name="content"/>
    </div>
+   <hr/>
    <div class="footer">
       <slot name="footer"/>
    </div>
