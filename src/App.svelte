@@ -56,6 +56,9 @@ let age = 23;
   <Welcome>
     <p>I'm a MERN Stack Developer</p>
   </Welcome>
+  <Welcome>
+    
+  </Welcome>
 </div>
 
 <!-- <div>
