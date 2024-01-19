@@ -61,6 +61,14 @@ let age = 23;
       <p>I'm a Full stack Developer</p>
     </div>
   </Welcome>
+    <Welcome>
+    <div slot="header">
+      <h1>Hi</h1>
+    </div>
+    <div slot="content">
+      <h2>I'm AKhil K</h2>
+    </div>
+  </Welcome>
 </div>
 
 <!-- <div>
