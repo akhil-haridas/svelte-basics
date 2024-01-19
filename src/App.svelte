@@ -49,6 +49,14 @@ let age = 23;
 
 </script>
 
+<div>
+  <Welcome>
+    <div slot="header"></div>
+    <div slot="content"></div>
+    <div slot="footer"></div>
+  </Welcome>
+</div>
+
 <!-- <div>
   <Welcome>
     <h1>Hi</h1>
