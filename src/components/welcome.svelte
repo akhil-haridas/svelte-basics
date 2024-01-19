@@ -13,7 +13,13 @@
 </div> -->
 
 <div class="card">
-   <div class="header"></div>
-   <div class="content"></div>
-   <div class="footer"></div>
+   <div class="header">
+      <slot/>
+   </div>
+   <div class="content">
+      <slot/>
+   </div>
+   <div class="footer">
+      <slot/>
+   </div>
 </div>
