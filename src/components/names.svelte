@@ -14,7 +14,7 @@
 <div>
 
     {#each nameList as name (name)}
-        
+        <slot/>
     {/each}
     
 </div>
