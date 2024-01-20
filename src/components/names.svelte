@@ -14,7 +14,7 @@
 <div>
 
     {#each nameList as name (name)}
-        <slot/>
+        <slot firstName={name.firstName} lastname={name.lastName} />
     {/each}
     
 </div>
