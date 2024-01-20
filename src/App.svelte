@@ -1,6 +1,7 @@
 <script>
   import { shuffle } from "lodash";
   import Welcome from "./components/welcome.svelte";
+  import Names from "./components/names.svelte";
   // const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
   let mobileCompanies = [
     { name: "Apple" },
@@ -48,6 +49,8 @@ $:if(volume > 20){
 let age = 23;
 
 </script>
+
+<Names/>
 
 <!-- <div>
   <Welcome>
