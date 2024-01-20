@@ -49,7 +49,7 @@ let age = 23;
 
 </script>
 
-<div>
+<!-- <div>
   <Welcome>
     <div slot="header">
       <h1>Hi</h1>
@@ -69,7 +69,7 @@ let age = 23;
       <h2>I'm AKhil K</h2>
     </div>
   </Welcome>
-</div>
+</div> -->
 
 <!-- <div>
   <Welcome>
