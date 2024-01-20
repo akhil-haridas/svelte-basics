@@ -14,7 +14,7 @@
 <div>
 
     {#each nameList as name (name)}
-        <h1>{name.firstName} : {name.lastName}</h1>
+        
     {/each}
     
 </div>
