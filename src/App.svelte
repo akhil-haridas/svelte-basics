@@ -50,7 +50,8 @@ let age = 23;
 
 </script>
 
-<Names/>
+<Names let:firstName let:lastName>
+</Names>
 
 <!-- <div>
   <Welcome>
