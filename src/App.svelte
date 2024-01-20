@@ -51,6 +51,7 @@ let age = 23;
 </script>
 
 <Names let:firstName let:lastName>
+  <h1>{firstName} : {lastName}</h1>
 </Names>
 
 <!-- <div>
