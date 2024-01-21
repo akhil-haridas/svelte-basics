@@ -3,6 +3,9 @@
 
     onMount(()=>{
         console.log("Mounting....")
+        return(()=>{
+            console.log('Unmounting...')
+        })
     })
 </script>
 
