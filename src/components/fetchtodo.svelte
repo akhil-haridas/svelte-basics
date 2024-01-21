@@ -1,6 +1,12 @@
 <script>
+  import { beforeUpdate } from "svelte";
+
 
     let todos = []
+
+    beforeUpdate(()=>{
+        
+    })
 
 </script>
 
