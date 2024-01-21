@@ -42,6 +42,7 @@
         display: flex;
         place-items: center;
         width: 100%;
+        gap: 20px;
         background-color: darkgray;
     }
 </style>
