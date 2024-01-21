@@ -8,9 +8,9 @@
     //     })
     // })
 
-    onDestroy(()=>{
-        console.log("Component Destroyed")
-    })
+    // onDestroy(()=>{
+    //     console.log("Component Destroyed")
+    // })
 </script>
 
 <div>
