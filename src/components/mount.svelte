@@ -1,12 +1,12 @@
 <script>
     import { onMount } from 'svelte'
 
-    onMount(()=>{
-        console.log("Mounting....")
-        return(()=>{
-            console.log('Unmounting...')
-        })
-    })
+    // onMount(()=>{
+    //     console.log("Mounting....")
+    //     return(()=>{
+    //         console.log('Unmounting...')
+    //     })
+    // })
 </script>
 
 <div>
