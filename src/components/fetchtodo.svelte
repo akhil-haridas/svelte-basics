@@ -22,7 +22,8 @@
     <div class="todo-wrapper">
         <span>{#if todo.completed}
             ✅
-{/if}</span>
+            {:else} ❌
+        {/if}</span>
         <h3>{todo.title}</h3>
     </div>
     {/each}
