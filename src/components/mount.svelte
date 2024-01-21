@@ -1,5 +1,5 @@
 <script>
-    import { onMount } from 'svelte'
+    import { onMount, onDestroy  } from 'svelte'
 
     // onMount(()=>{
     //     console.log("Mounting....")
@@ -7,6 +7,10 @@
     //         console.log('Unmounting...')
     //     })
     // })
+
+    onDestroy(()=>{
+        console.log("Component Destroyed")
+    })
 </script>
 
 <div>
