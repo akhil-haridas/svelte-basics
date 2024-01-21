@@ -15,6 +15,10 @@
     beforeUpdate(()=>{
         console.log('Before Update')
     })
+
+    afterUpdate(()=>{
+        console.log('After Update')
+    })
 </script>
 
 <div>
