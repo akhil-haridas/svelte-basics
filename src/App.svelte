@@ -3,6 +3,7 @@
   import Welcome from "./components/welcome.svelte";
   import Names from "./components/names.svelte";
   import Mount from "./components/mount.svelte";
+  import Fetchtodo from "./components/fetchtodo.svelte";
   // const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
   let mobileCompanies = [
     { name: "Apple" },
@@ -51,7 +52,9 @@ let age = 23;
 
 </script>
 
-<Mount/>
+<Fetchtodo/>
+
+<!-- <Mount/> -->
 
 <!-- 
 <Names let:firstName let:lastName>
