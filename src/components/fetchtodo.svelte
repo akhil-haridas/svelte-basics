@@ -1,11 +1,15 @@
 <script>
-  import { beforeUpdate } from "svelte";
+  import { onMount } from "svelte";
 
 
     let todos = []
 
-    beforeUpdate(()=>{
-        
+    const fetchtodos = async ()=> {
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos')
+        todos = await response.json()
+    }
+    onMount(()=>{
+        fetchtodos()
     })
 
 </script>
