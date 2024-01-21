@@ -1,5 +1,7 @@
 <script>
 
+    let todos = []
+
 </script>
 
 <main class="todo-list-wrapper">
