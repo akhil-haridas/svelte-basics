@@ -19,8 +19,11 @@
     afterUpdate(()=>{
         console.log('After Update')
     })
+
+    let count = 0
 </script>
 
 <div>
 <h1> Mount components</h1>
+<h3>Count : {count}</h3>
 </div>
