@@ -21,9 +21,14 @@
     })
 
     let count = 0
+
+    const  increment = ()=> {
+        count++
+    }
 </script>
 
 <div>
 <h1> Mount components</h1>
 <h3>Count : {count}</h3>
+<button on:click={increment}>Increment</button>
 </div>
