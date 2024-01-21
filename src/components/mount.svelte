@@ -11,6 +11,10 @@
     // onDestroy(()=>{
     //     console.log("Component Destroyed")
     // })
+
+    beforeUpdate(()=>{
+        console.log('Before Update')
+    })
 </script>
 
 <div>
