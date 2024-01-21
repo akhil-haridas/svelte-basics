@@ -1,5 +1,5 @@
 <script>
-    import { onMount, onDestroy  } from 'svelte'
+    import { onMount, onDestroy, beforeUpdate, afterUpdate  } from 'svelte'
 
     // onMount(()=>{
     //     console.log("Mounting....")
