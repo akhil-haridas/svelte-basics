@@ -7,7 +7,7 @@
         {
             firstName : "Sagar",
             lastName : "Samanta"
-        }
+        },
     ]
 </script>
 
