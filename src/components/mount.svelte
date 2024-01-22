@@ -12,13 +12,13 @@
     //     console.log("Component Destroyed")
     // })
 
-    // beforeUpdate(()=>{
-    //     console.log('Before Update')
-    // })
+    beforeUpdate(()=>{
+        console.log('Before Update')
+    })
 
-    // afterUpdate(()=>{
-    //     console.log('After Update')
-    // })
+    afterUpdate(()=>{
+        console.log('After Update')
+    })
 
     let count = 0
 
