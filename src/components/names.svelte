@@ -15,6 +15,10 @@
         {
             firstName: 'Rahul', 
             lastName: 'Sharma'
+        },
+        {
+            firstName:"John",  
+            lastName:"Doe"
         }
     ]
 </script>
