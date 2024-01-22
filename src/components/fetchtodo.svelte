@@ -17,8 +17,7 @@
 
 <main class="todo-list-wrapper">
     <h1>TODO LIST </h1>
-    {#each todos as todo (todo.id)}
-        
+    {#each todos as todo (todo.id)}   
     <div class="todo-wrapper">
         <span>{#if todo.completed}
             ✅
