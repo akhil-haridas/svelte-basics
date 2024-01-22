@@ -2,7 +2,7 @@
     const nameList = [
         {
             firstName :"Akhil",
-            lastName : "k"
+            lastName : "K"
         },
         {
             firstName : "Sagar",
