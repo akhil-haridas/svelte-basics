@@ -8,6 +8,10 @@
             firstName : "Sagar",
             lastName : "Samanta"
         },
+        {
+            firstName : "Sagar",
+            lastName : "Mali"
+        }
     ]
 </script>
 
