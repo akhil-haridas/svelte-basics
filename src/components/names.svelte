@@ -19,6 +19,10 @@
         {
             firstName:"John",  
             lastName:"Doe"
+        },
+        {
+            firstName:"Jane",
+            lastName:"Smith"
         }
     ]
 </script>
