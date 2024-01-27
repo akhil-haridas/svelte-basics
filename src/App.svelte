@@ -1,5 +1,5 @@
 <script>
-/import { shuffle } from "lodash";
+  import { shuffle } from "lodash";
   import Welcome from "./components/welcome.svelte";
   import Names from "./components/names.svelte";
   import Mount from "./components/mount.svelte";
