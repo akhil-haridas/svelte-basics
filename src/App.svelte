@@ -4,7 +4,7 @@
   import Names from "./components/names.svelte";
   import Mount from "./components/mount.svelte";
   import Fetchtodo from "./components/fetchtodo.svelte";
-  // const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"]
+  // const mobileCompanies = ["Apple","Pixel","Nothing","Samsung","OnePlus"];
   let mobileCompanies = [
     { name: "Apple" },
     { name: "Pixel" },
