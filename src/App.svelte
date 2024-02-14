@@ -1,4 +1,4 @@
-<script>.....
+<script>
   import { shuffle } from "lodash";
   import Welcome from "./components/welcome.svelte";
   import Names from "./components/names.svelte";
